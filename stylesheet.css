@@ -1,0 +1,80 @@
+:root{
+    --main-bg-color:#F7F0F5;
+    --main-color:   #433633;
+    --accent-color1:#DECBB7;
+    --accent-color2:#8F857D;
+    --accent-color3:#5C5552;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-color);
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.glass-pane{
+    position: absolute;
+    background-color: hsla(225, 19%, 33%, 0.588);
+    height: auto;
+    width: 40%;
+    top:13%;
+    color: #E5E9F0;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    min-width: min-content;
+    min-height: 60%;
+}
+
+#title{
+    font-weight: 500;
+    padding: 0.75em 0em 0em;
+    text-shadow: 4px 4px black;
+}
+
+#sub-text{
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 0em 1em 0em ;
+    text-shadow: 4px 4px black;
+    word-spacing: 10px;
+}
+
+#description{
+    text-align: start;
+    padding: 2em;
+    overflow-wrap: break-word;
+    font-size: small;
+    font-weight: 400;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#glass-pane-button{
+    padding: 0.5em;
+    font-size: 1rem;
+    margin: 5px;
+    border: 2px solid #2d3544 ;
+    border-radius: 10px;
+    background-color: #E5E9F0;
+    color: #2d3544;
+}
